@@ -3,8 +3,8 @@
         <h2>Book List Two</h2>
         <ul>
              <li v-for="(b,id) in saleBooks" :key="id">
-                <span class="name">{{b.name}}</span>
-                <span class="price">${{b.price}}</span>
+                <span class="Book name">{{b.name}}</span>
+                <span class="Book price">${{b.price}}</span>
             </li>
         </ul>
         <button @click.prevent="created">Click</button>
